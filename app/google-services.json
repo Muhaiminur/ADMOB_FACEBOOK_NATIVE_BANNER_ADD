@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1074901638903",
+    "firebase_url": "https://facebookad-a2cfe.firebaseio.com",
+    "project_id": "facebookad-a2cfe",
+    "storage_bucket": "facebookad-a2cfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074901638903:android:881f458f3f5491fa",
+        "android_client_info": {
+          "package_name": "com.muhaiminurabir.facebook_ad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074901638903-cofs3kq6iqh8mpm9oik5n3v7u4kncn0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muhaiminurabir.facebook_ad",
+            "certificate_hash": "d84d70d7c69ec316ff2691cf83e0713b1ddf72bc"
+          }
+        },
+        {
+          "client_id": "1074901638903-3v3jhnvutm8oc0pgsd8b1g65m1m63amd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFQkXgEXN14GDaltU-E7JlAMAvbbNMUjE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074901638903-3v3jhnvutm8oc0pgsd8b1g65m1m63amd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
