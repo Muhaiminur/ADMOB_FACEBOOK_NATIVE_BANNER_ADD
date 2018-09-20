@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Recycler_Native" />
-        <activity android:name=".Admob.Admob_Recycler"></activity>
+        <activity android:name=".Admob.Admob_Recycler" />
+        <activity android:name=".Facbook_ad_Lib"></activity>
     </application>
 
 </manifest>

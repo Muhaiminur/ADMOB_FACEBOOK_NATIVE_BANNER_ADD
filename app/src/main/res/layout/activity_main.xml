@@ -6,14 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
-    <Button
-        android:id="@+id/recycler_native"
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Recycler Facebook ADD View"/>
-    <Button
-        android:id="@+id/recycler__admob_native"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Recycler Admob ADD View"/>
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/recycler_native"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recycler Facebook ADD View"/>
+            <Button
+                android:id="@+id/recycler__admob_native"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recycler Admob ADD View"/>
+
+            <Button
+                android:id="@+id/recycler__facbook_native_lib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recycler Facebook ADD View"/>
+
+            <!--<TextView
+                android:id="@+id/test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TextView" />-->
+            <org.sufficientlysecure.htmltextview.HtmlTextView
+                android:id="@+id/html_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="@android:style/TextAppearance.Small" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
